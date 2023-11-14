@@ -161,7 +161,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ABHI bhai mana na krte to, muut deta tere muh p !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» 𝑾𝑬𝑬𝑫𝑳𝑬𝑨𝑭 bhai mana na krte to, muut deta tere muh p !! ✅", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -171,7 +171,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ABHI bhai mana na krte to, muut deta tere muh p !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» 𝑾𝑬𝑬𝑫𝑳𝑬𝑨𝑭 bhai mana na krte to, muut deta tere muh p !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
